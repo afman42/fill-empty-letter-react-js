@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCenter{
+  text-align: center;
+}
+
+.buttonStart {
+  background-color: red;
+  padding: 3px 20px 3px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.inputPlayGame {
+  width: 90px;
+  border-top-color: white;
+  border-top-width: 0px;
+  border-right-color: white;
+  border-right-width: 0px;
+  border-left-color: white;
+  border-left-width: 0px;
+  text-align: center;
+}
+
+.divInput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.divAreaInput{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divKisi {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonGroup > input {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 576px) {
+  .divForm {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .inputPlayGame {
+    width: 10%;
+  }
+  .divKisi > div {
+    font-size: 10px;
+  }
+}
